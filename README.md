@@ -76,45 +76,48 @@ POST /orders
 
 ## ⚙️ How to Run Locally
 
-1. Clone the repository:
+1. Download or clone the repository:
 
 ```
-git clone https://github.com/yourusername/ecommerce-api.git
+git clone https://github.com/karim4k/ecommerce-api.git
 ```
 
-2. Navigate into the project:
+2. Navigate into the project folder:
 
 ```
 cd ecommerce-api
 ```
 
-3. Install dependencies:
+3. Install required packages:
 
 ```
 pip install fastapi uvicorn
 ```
 
-4. Run the server:
+4. Run the API server:
 
 ```
 uvicorn main:app --reload
 ```
 
-5. Open in browser:
+5. Open your browser and go to:
 
 ```
-http://127.0.0.1:8000/docs
+https://w2f7hl-8000.csb.app/docs
 ```
+
+This will open the interactive API documentation where you can test all endpoints.
 
 ---
 
 ## 🔐 Environment Variables
 
-The project uses environment variables for security:
+The project supports environment variables for configuration, but they are optional for this demo.
 
-```
+Example:
 MY_SECRET_KEY=your_secret_key
-```
+
+If not provided, a default value is used and the application will still run normally.
 
 ---
 
